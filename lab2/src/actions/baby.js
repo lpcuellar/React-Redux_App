@@ -10,4 +10,3 @@ export const selectBaby = (id) => ({
     payload: id,
 });
 
-return omit(state, action.payload.id);
